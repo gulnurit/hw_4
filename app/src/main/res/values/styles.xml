@@ -1,0 +1,12 @@
+<resources>
+    <!-- Основная тема приложения -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Отключаем заголовок (AppBar) -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Устанавливаем белые значки в статус-баре -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Цвет статус-бара -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
